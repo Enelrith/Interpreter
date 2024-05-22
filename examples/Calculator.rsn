@@ -1,0 +1,8 @@
+PRINT "Welcome to the calculator. Please enter your choice: "
+PRINT "ADD: Addition"
+PRINT "SUB: Subtraction"
+PRINT "MUL: Multiplication"
+PRINT "DIV: Division"
+CHOICE
+RESULT
+HALT

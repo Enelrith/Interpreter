@@ -1,0 +1,12 @@
+SET first_name "John"
+SET last_name "Smith"
+SET age 23
+SET hobbies[0] "Gaming"
+SET hobbies[1] "Football"
+PRINT "$first_name"
+PRINT "$last_name"
+PRINT "$age"
+PRINT "$hobbies[0]"
+PRINT "$hobbies[1]"
+WAIT
+HALT

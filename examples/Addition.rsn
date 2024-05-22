@@ -1,0 +1,8 @@
+PRINT "Enter first number: "
+READ 
+PRINT "Enter second number: "
+READ
+ADD
+RESULT
+WAIT
+HALT

@@ -1,0 +1,8 @@
+SET string_1 "Hello, "
+SET string_2 "World!"
+PRINT "$string_1"
+PRINT "$string_2"
+CONCAT string_3 string_1 string_2
+PRINT "$string_3"
+WAIT
+HALT

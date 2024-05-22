@@ -1,0 +1,23 @@
+PRINT "Enter first number: "
+READ
+PRINT "Enter second number: "
+READ
+SUB
+JUMP.EQ.0 L1
+JUMP.GT.0 L2
+JUMP.LT.0 L3
+
+L1:
+PRINT "The numbers are equal"\
+WAIT
+HALT
+
+L2:
+PRINT "The first number is bigger than the second number"
+WAIT
+HALT
+L3:
+PRINT "The second number is bigger than the first number"
+WAIT
+HALT
+
