@@ -145,6 +145,8 @@ while program[pc] != "HALT":
         b = stack.pop()
         result = a / b
         stack.push(result)
+    if opcode == "RESULT":
+        print("The result is: ", result)
     elif opcode == "PRINT":
         string_literal = program[pc]
         pc += 1
@@ -200,7 +202,6 @@ while program[pc] != "HALT":
             print("The result is: ", result)
             print("Enter your choice (ADD, SUB, MUL, DIV, EXIT): ")
             choice = str(input())
-            if opcode == "RESULT":
-                print("The result is: ", result)
+            
     elif opcode == "WAIT":
         input("Press Enter to continue...")
